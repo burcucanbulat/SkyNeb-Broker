@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+   
+}
+.body-highlight {
+    background-color: #212529;
+}
+.search {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.search-icon {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.content-border {
+    border-top: 1px solid #16a16c;
+    padding: 100px;
+}
+.style-title{
+    font-size: 2.5rem;;
+}
+.style-text {
+    font-size: 1.2rem;
+}
+.first-table {
+    padding: 100px;
+    background-color:white;
+}
+.change {
+    padding-right: 50px;
+}
+.bitcoin {
+    size: 5px; 
+    color: orange;
+}
+.ethereum {
+    size: 7px; 
+    color:blue;
+}
+.litecoin {
+    color: gray;
+}
+.home {
+    padding: 100px;
+    background-color: whitesmoke;
+}
+.header {
+    color: #212529;
+}
+.first-card {
+    width: 18rem;
+}
+.title-card {
+    color: green;
+}
+.example{
+    position: relative;
+
+    right: -60px;
+}
+
+.mobile {
+    padding: 100px;
+    background-color:whitesmoke;
+}
+.mobile-title{
+    color: #212529;
+}
+.app {
+    width: 25% !important;
+}
+.portfolio {
+   margin-top: 40px;
+}
+.portfolio-title{
+    color:#212529;
+}
+.portfolio-img {
+    border-radius: 10px;
+    position: relative;
+    right: 30px;
+}
+.custom {
+    border-top: 2px solid  #16a16c;
+    border-bottom:  2px solid #16a16c;
+    padding: 50px;
+    background-color: #212529;
+}
+.red-highlight{
+    color: red;
+}
+.white-highlight {
+    color: aliceblue;
+}
+
+.portfolio {
+    padding: 30px 100px 100px 100px;
+}
+.price:hover {
+    opacity: 0.8;
+}
+.icon {
+      color: #FB9300;
+      padding-right: 20px;
+      padding-bottom: 10px;
+}
+.table {
+    border-top: 1px solid #dee2e6;
+}
+
+.card {
+    background-color: #F9F9F9;
+    min-height: 230px;
+    transition: 0.5s;
+}
+.card:hover {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   transition: 0.5s;
+}
+
+h4 {
+    color: whitesmoke;
+}
+
+.text {
+    color: whitesmoke;
+}
+
+.footer {
+    background-image:url(../img/61773.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    position:relative;
+    background-repeat: repeat-x;
+    height: 300px;
+  
+    
+}
+
+.final {
+   padding: 40px;
+   text-align: center;
+
+}
+
+.final p{
+    text-decoration: none;
+    color: #212529;
+}
+
+.final p:hover {
+    color: #16a16c;
+}
+
+.footer-text {
+    color: #212529;
+}
+.footer-icon {
+    color: rgb(22, 21, 21);
+    padding: 3px;
+}
+@media screen and (max-width: 780px) {
+    .table {
+      flex-direction: column;
+      align-items: flex-end;
+    }
+
+    .mobile-img {
+        width: 300px;
+        height: 300px;
+  }
+  
+
+}
+
